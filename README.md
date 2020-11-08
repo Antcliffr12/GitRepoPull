@@ -14,15 +14,4 @@ api/update takes the update method which has an ignore incase you need to recrea
 
 # To make this work
 
-take repos.sql file and import it into mysql database. 
-
-## change 
-
-change config/database to your credientals on local machine, I used xampp with phpmyadmin
-
-## Load Data
-to get the data to be imported into the database, you have to go to your url string /api/create.php (http://localhost/GithubPHPList/OOP/api/create.php) 
-
-
-
-
+Change database info in config/database.php, load index.php and it will create database, table and insert on page load. I used xampp with phpmyadmin
