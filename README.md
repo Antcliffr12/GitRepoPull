@@ -1,8 +1,8 @@
 # GitRepoPull
 
-Github Most Starred PHP public repos. The list is through Github API using OOP.
+Github Most Starred PHP public repos updates when API is changed. The list is through Github API using OOP.
 
-# Used PHP, JQuery, and Bootstrap to program and style this application
+# Used PHP, MySQL, JQuery, and Bootstrap to program and style this application
 
 To get the data I used file_get_contents and looped the data to get it, you can see in files api/create, and api/update.php
 
@@ -14,4 +14,4 @@ api/update takes the update method which has an ignore incase you need to recrea
 
 # To make this work
 
-Change database info in config/database.php, load index.php and it will create database, table and insert on page load. I used xampp with phpmyadmin
+Change database info in config/database.php, load index.php, example (http://locahost/projectName/OOP/) and it will create database, table and insert data on page load. I used xampp with phpmyadmin
