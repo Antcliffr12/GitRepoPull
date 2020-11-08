@@ -10,8 +10,8 @@ $opts = [
 
 $context = stream_context_create($opts);
 
-include_once '../../OOP/config/database.php';
-include_once '../../OOP/items/github.php';
+// include_once '../../OOP/config/database.php';
+// include_once '../../OOP/items/github.php';
 
 //gets database class from file and uses connection string
 $database = new Database();
@@ -39,7 +39,7 @@ if($data){
 
          if($repo->create()){
             http_response_code(201);
-            echo json_encode(array("message" => "Repo was created."));
+            //echo json_encode(array("message" => "Repo was created."));
     
         }else{
             // set response code - 503 service unavailable

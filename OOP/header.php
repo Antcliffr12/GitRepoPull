@@ -1,7 +1,9 @@
 <?php
 include_once '../OOP/config/database.php';
 include_once '../OOP/items/github.php';
+include_once '../OOP/api/create.php';
 include_once '../OOP/api/read.php';
+include_once '../OOP/api/update.php';
 
 ?>
 

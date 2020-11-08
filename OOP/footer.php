@@ -6,14 +6,14 @@
     <script>
       $(document).ready(function(){
         //windows reloads every second and goes to update.php to check if the database has been updated
-       window.setInterval(function(){
-         $.ajax({
-            url: 'http://localhost/GithubPHPList/OOP/api/update.php',
-            success: function(data){
-              // console.log(data);
-            }
-         })
-       }, 3000)
+      //  window.setInterval(function(){
+      //    $.ajax({
+      //       url: 'http://localhost/GithubPHPList/OOP/api/update.php',
+      //       success: function(data){
+      //         // console.log(data);
+      //       }
+      //    })
+      //  }, 3000)
 
         //this area is for load more button 
         var numberPerLoad = 10;
